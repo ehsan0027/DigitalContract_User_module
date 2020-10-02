@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.digitalcontracts">
+
+    <uses-permission android:name="android.location.PROVIDERS_CHANGED" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+     android:requestLegacyExternalStorage="true"
+    android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.example.digitalcontracts.PDF"></activity>
+        <activity android:name="com.example.digitalcontracts.Application_submitted" />
+        <activity android:name="com.example.digitalcontracts.Face_detect" />
+        <activity
+            android:name="com.example.digitalcontracts.MainDisplay"
+            android:label="@string/title_activity_main_display"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity android:name="com.example.digitalcontracts.Digital_signatures" />
+        <activity android:name="com.example.digitalcontracts.Finger_print_success" />
+        <activity android:name="com.example.digitalcontracts.CNIC" />
+        <activity android:name="com.example.digitalcontracts.OTP_verification"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.example.digitalcontracts.Login_screen" />
+        <activity android:name="com.example.digitalcontracts.Splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.digitalcontracts.MainActivity" />
+        <service android:name="com.example.digitalcontracts.NotificationService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

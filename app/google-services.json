@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "441000394068",
+    "firebase_url": "https://digital-application-6a4a6.firebaseio.com",
+    "project_id": "digital-application-6a4a6",
+    "storage_bucket": "digital-application-6a4a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441000394068:android:702e964d4ae622d0b8dcc1",
+        "android_client_info": {
+          "package_name": "com.exampl.digitalapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441000394068-brupmjn50g8nvkklpd8gn5msl07uoacf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaoJ-kFa0D0Mu7Uyw-LM084P8ialp_NZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441000394068-brupmjn50g8nvkklpd8gn5msl07uoacf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441000394068:android:5c70c00f39c2fc0ab8dcc1",
+        "android_client_info": {
+          "package_name": "com.example.digital_contract_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441000394068-brupmjn50g8nvkklpd8gn5msl07uoacf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaoJ-kFa0D0Mu7Uyw-LM084P8ialp_NZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441000394068-brupmjn50g8nvkklpd8gn5msl07uoacf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441000394068:android:d151484bcd2407d6b8dcc1",
+        "android_client_info": {
+          "package_name": "com.example.digitalcontracts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441000394068-brupmjn50g8nvkklpd8gn5msl07uoacf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaoJ-kFa0D0Mu7Uyw-LM084P8ialp_NZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441000394068-brupmjn50g8nvkklpd8gn5msl07uoacf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

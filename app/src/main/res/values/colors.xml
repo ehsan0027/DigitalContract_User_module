@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#097D89</color>
+    <color name="colorPrimaryDark">#097D89</color>
+    <color name="colorAccent">#000</color>
+    <color name="darkGray">#707070</color>
+    <color name="zincRed">#CF2A38</color>
+    <color name="lightblue">#48B8D9</color>
+    <color name="dullBlue">#1F2D3D</color>
+    <color name="dark_blue">#486AAF</color>
+    <color name="signincolor">#4286F5</color>
+    <color name="status_bar_red">#D13B48</color>
+    <color name="dullGreen">#067E6E</color>
+    <color name="light_red">#D4505A</color>
+    <color name="dark_red">#CE2B37</color>
+    <color name="off_white">#C1B9B9</color>
+    <color name="toolbar">#f3f3f3</color>
+    <color name="darkBlue">#0054A6</color>
+    <color name="lightGray">#E1E1E1</color>
+    <color name="verylightGray">#F2F2F2</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="text_blue">#0054A6</color>
+    <color name="brown">#D18234</color>
+    <color name="dark_brown">#EF8F5C</color>
+    <color name="offWhite">#FAFAFA</color>
+    <color name="Green">#8DC63F</color>
+    <color name="textGray">#606060</color>
+    <color name="Red">#D94848</color>
+    <color name="Orange">#FF6343</color>
+<color name="notification_color">#CDE2F3</color>
+    <color name="holo_blue">#2196F3</color>
+    <color name="primaryColorDark">#619622</color>
+</resources>

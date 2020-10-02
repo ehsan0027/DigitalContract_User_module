@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/fingerprint_baclground"
+    android:layout_height="match_parent"
+    tools:context=".Finger_print_success">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@drawable/fingerprint_baclground"
+        android:layout_height="match_parent"
+        tools:context=".Form.Fingerprint_success">
+
+
+        <ImageView
+            android:id="@+id/tick"
+            android:src="@drawable/green_tick"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_one_seventy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/scuess"
+            android:textStyle="bold"
+            android:text="Signatures verified Successfully!"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_below="@+id/tick"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/medium_textSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:text="Signatures successfully matched with your bank records."
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_below="@+id/scuess"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/medium_textSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:text="PROCEED"
+            android:id="@+id/next"
+            android:textSize="@dimen/medium_textSize"
+            android:textColor="@color/white"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:background="@color/Green"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    android:fitsSystemWindows="true"
+    android:background="@drawable/submitted_background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Digital_signatures">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/yeh"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <ImageView
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:src="@drawable/ic_arrow_back_black_24dp"
+                android:layout_width="wrap_content"
+                android:paddingRight="@dimen/activity_vertical_margin"
+                android:id="@+id/toolbar"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:text="DIGITAL SIGNATURES"
+                android:textColor="@color/white"
+                android:textSize="@dimen/Large_textSize"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <TextView
+            android:background="@color/off_white"
+            android:id="@+id/text"
+            android:gravity="center"
+            android:text="Please Sign as per your CNIC"
+            android:textColor="@color/black"
+            android:textSize="@dimen/medium_textSize"
+            android:padding="@dimen/activity_vertical_margin"
+            android:layout_below="@+id/yeh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <RelativeLayout
+            android:layout_below="@+id/text"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <com.github.gcacace.signaturepad.views.SignaturePad
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/signature_pad"
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:layout_above="@+id/next"
+                android:layout_height="match_parent"
+                android:saveEnabled="false"
+                app:penColor="@color/black"
+                />
+
+            <Button
+                android:text="PROCEED"
+                android:textColor="@color/white"
+                android:textSize="@dimen/medium_textSize"
+                android:id="@+id/next"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:background="@color/Green"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

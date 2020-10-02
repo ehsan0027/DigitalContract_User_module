@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@drawable/login_verificattion_baclground"
+    android:layout_height="match_parent"
+    tools:context=".OTP_verification">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <!--    <TextView-->
+        <!--        android:layout_centerHorizontal="true"-->
+        <!--        android:text="OTP Verification"-->
+        <!--        android:textSize="@dimen/xl_textSize"-->
+        <!--        android:layout_marginTop="@dimen/activity_horizontal_margin"-->
+        <!--        android:layout_gravity="center"-->
+        <!--        android:textColor="#EF3D55"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"/>-->
+
+
+        <LinearLayout
+            android:id="@+id/first"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/margin_fifty"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="@dimen/medium_textSize"
+                android:textColor="@color/Green"
+                android:text="Enter Your OTP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="@dimen/small_textSize"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:textColor="@color/darkGray"
+                android:text="We have sent OTP on your number &amp; email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginBottom="@dimen/margin_ffifty"
+                android:textColor="@color/darkGray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+     <LinearLayout
+         android:gravity="center"
+         android:layout_below="@+id/first"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+         <TextView
+             android:layout_marginTop="@dimen/activity_vertical_margin"
+             android:text="ENTER EMAIL OTP CODE"
+             android:textStyle="bold"
+             android:layout_marginBottom="5dp"
+             android:layout_above="@id/firstPinView"
+             android:textSize="@dimen/medium_textSize"
+             android:id="@+id/enter_mobile"
+             android:textColor="@color/white"
+             android:layout_centerHorizontal="true"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"/>
+
+         <com.chaos.view.PinView
+             android:imeOptions="actionDone"
+             android:layout_gravity="center"
+             android:layout_marginBottom="@dimen/activity_vertical_margin"
+             android:id="@+id/firstPinView"
+             style="@style/PinWidget.PinView"
+             android:layout_centerHorizontal="true"
+             android:layout_width="wrap_content"
+             android:layout_below="@+id/first"
+             android:layout_height="wrap_content"
+             android:cursorVisible="true"
+             android:inputType="number"
+             android:layout_marginRight="@dimen/activity_vertical_margin"
+             android:layout_marginLeft="@dimen/activity_vertical_margin"
+             android:digits="0123456789"
+             android:textColor="@color/white"
+             android:textSize="@dimen/xl_textSize"
+             android:textStyle="bold"
+             app:cursorColor="@color/white"
+             app:cursorWidth="2dp"
+             app:hideLineWhenFilled="false"
+             app:itemCount="4"
+             app:itemHeight="45dp"
+             app:itemRadius="4dp"
+             app:itemSpacing="8dp"
+             app:itemWidth="40dp"
+             app:lineColor="@color/colorPrimary"
+             app:lineWidth="2dp"
+             app:viewType="rectangle" />
+
+         <TextView
+             android:text="ENTER MOBILE OTP CODE"
+             android:textStyle="bold"
+             android:layout_marginBottom="5dp"
+             android:layout_below="@+id/firstPinView"
+             android:textSize="@dimen/medium_textSize"
+             android:id="@+id/enter_email"
+             android:textColor="@color/white"
+             android:layout_centerHorizontal="true"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"/>
+         <com.chaos.view.PinView
+             android:imeOptions="actionDone"
+             android:layout_gravity="center"
+             android:layout_marginBottom="@dimen/activity_vertical_margin"
+             android:id="@+id/firstPinView2"
+             style="@style/PinWidget.PinView"
+             android:layout_centerHorizontal="true"
+             android:layout_width="wrap_content"
+             android:layout_below="@+id/enter_email"
+             android:layout_height="wrap_content"
+             android:cursorVisible="true"
+             android:inputType="number"
+             android:layout_marginRight="@dimen/activity_vertical_margin"
+             android:layout_marginLeft="@dimen/activity_vertical_margin"
+             android:digits="0123456789"
+             android:textColor="@color/white"
+             android:textSize="@dimen/xl_textSize"
+             android:textStyle="bold"
+             app:cursorColor="@color/white"
+             app:cursorWidth="2dp"
+             app:hideLineWhenFilled="false"
+             app:itemCount="4"
+             app:itemHeight="45dp"
+             app:itemRadius="4dp"
+             app:itemSpacing="8dp"
+             app:itemWidth="40dp"
+             app:lineColor="@color/colorPrimary"
+             app:lineWidth="2dp"
+             app:viewType="rectangle" />
+
+
+
+
+
+         <Button
+             android:layout_alignParentBottom="true"
+             android:id="@+id/verify"
+             android:layout_marginTop="@dimen/activity_vertical_margin"
+             android:gravity="center"
+             android:textSize="@dimen/medium_textSize"
+             android:layout_gravity="center"
+             android:text="Verify"
+             android:layout_marginRight="@dimen/margin_ffifty"
+             android:layout_marginLeft="@dimen/margin_ffifty"
+             android:textColor="@color/white"
+             android:background="@drawable/button_green"
+             android:layout_width="match_parent"
+             android:layout_marginBottom="@dimen/activity_horizontal_margin"
+             android:layout_height="wrap_content"/>
+     </LinearLayout>
+
+    </RelativeLayout>
+    </ScrollView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

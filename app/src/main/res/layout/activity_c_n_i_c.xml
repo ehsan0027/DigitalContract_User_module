@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/main_screen_background"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent"
+    tools:context=".CNIC">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <ImageView
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:src="@drawable/ic_arrow_back_black_24dp"
+                android:layout_width="wrap_content"
+                android:paddingRight="@dimen/activity_vertical_margin"
+                android:id="@+id/toolbar"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:text="SCAN CNIC"
+                android:textColor="@color/white"
+                android:textSize="@dimen/medium_textSize"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:fillViewport="true"
+            android:layout_height="match_parent">
+            <androidx.cardview.widget.CardView
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/white"
+                    android:padding="8dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:layout_marginTop="@dimen/activity_vertical_margin"
+                        android:text="CNIC FRONT"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/medium_textSize"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <View
+                        android:background="@color/textGray"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"/>
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sample_image"
+                        android:layout_marginTop="8dp"
+                        android:id="@+id/cnic_front"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_two_hundred"/>
+
+                    <TextView
+                        android:layout_marginTop="@dimen/margin_ffifty"
+                        android:text="CNIC BACK"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/medium_textSize"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <View
+                        android:background="@color/textGray"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"/>
+
+                    <ImageView
+                        android:layout_marginBottom="@dimen/activity_vertical_margin"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sample_image"
+                        android:layout_marginTop="8dp"
+                        android:id="@+id/cnic_back"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_two_hundred"/>
+
+
+
+
+                    <Button
+                        android:text="PROCEED"
+                        android:id="@+id/next"
+                        android:layout_marginTop="@dimen/activity_vertical_margin"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_marginBottom="@dimen/activity_vertical_margin"
+                        android:textSize="@dimen/medium_textSize"
+                        android:background="#0054A6"
+                        android:layout_margin="@dimen/activity_vertical_margin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

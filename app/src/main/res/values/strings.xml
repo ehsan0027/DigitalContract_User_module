@@ -1,0 +1,157 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="facebook_app_id">263259021618362</string>
+    <string name="fb_login_protocol_scheme">fb263259021618362</string>
+
+    <string name="app_name">Digital Contract</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_turn_activity">Turn_activity</string>
+    <string name="title_activity_waiting_">Waiting_Activity</string>
+    <string name="view_profile"><u>View and Edit Profile</u></string>
+    <string name="forgot_password"><u>Forgot Password ???</u></string>
+    <string name="recieve"><b>Adsmixx</b> will recieve:</string>
+    <string name="new_here">By Signing up through your Facebook account, you will become a user of
+        adsmix and accept our </string>
+    <string name="privacy_policy"><u>Privacy Policy &amp; Terms of Use</u>.</string>
+    <string name="API_KEY">AIzaSyD2MRJEkAHpBR2P2ZGU-bAGGvpliL4Ao34</string>
+
+    <string name="hello">
+
+<![CDATA[
+<html>
+ <head></head>
+ <body style="text-align:justify;color:gray;background-color:black;">
+  Lorem ipsum dolor sit amet, consectetur
+  adipiscing elit. Nunc pellentesque, urna
+  nec hendrerit pellentesque, risus massa
+ </body>
+</html>
+]]>
+</string>
+
+
+    <string-array name="relationship">
+        <item>Mother</item>
+        <item>Father</item>
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Friend</item>
+        <item>Son</item>
+        <item>Daughter</item>
+        <item>Uncle</item>
+    </string-array>
+    <string-array name="numbers">
+        <item>India 54</item>
+        <item>Canada 87</item>
+        <item>Nepal 75</item>
+        <item>China 76</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="residence_type">
+        <item>House</item>
+        <item>Banglow</item>
+    </string-array>
+    <string-array name="applicant_designation">
+        <item>Employee</item>
+        <item>Manager</item>
+    </string-array>
+    <string-array name="residence">
+        <item>Owned</item>
+        <item>Rented</item>
+        <item>Family House</item>
+    </string-array>
+    <string-array name="business_type">
+        <item>Director</item>
+        <item>Pvt</item>
+        <item>Sole of Department</item>
+    </string-array>
+    <string-array name="residence_status">
+        <item>Separate</item>
+        <item>Joint</item>
+    </string-array>
+    <string-array name="natureee">
+        <item>Liter</item>
+        <item>Kg</item>
+        <item>Grams</item>
+    </string-array>
+    <string-array name="salaried">
+        <item>CCM</item>
+    </string-array>
+
+    <string-array name="job_status">
+        <item>FTE</item>
+    </string-array>
+    <string-array name="marital_status">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorced</item>
+        <item>Windowed</item>
+    </string-array>
+    <string-array name="ssalaried">
+        <item>Own Business</item>
+        <item>Salaried</item>
+
+    </string-array>
+    <string-array name="loan_tenure">
+        <item>3 years</item>
+        <item>5 years</item>
+        <item>7 years</item>
+        <item>8 years</item>
+        <item>10 years</item>
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings"><u>Privacy Policy &amp; Terms of Use</u></string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_credit__check__dashboard">Credit_Check_Dashboard</string>
+    <string name="title_activity_credit_check_dashboard">Credit_check_dashboard</string>
+    <string name="title_activity_sales_proc">Sales_proc</string>
+    <string name="title_activity_c_u_i">CUI</string>
+    <string name="title_activity_f_r_m_u">FRMU</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_google_maps">Map</string>
+    <string name="title_activity_main__acitivity__reciever">Main_Acitivity_Reciever</string>
+
+
+    <!-- Default simple date format -->
+    <string name="simple_date_format" translatable="false">yyyy-MM-dd \'at\' HH:mm</string>
+
+    <!-- Title -->
+    <string name="label_datetime_dialog">DateTime</string>
+
+    <!-- deprecated, use android.R.string.ok and android.R.string.cancel instead -->
+    <string name="positive_button_datetime_picker">OK</string>
+    <string name="negative_button_datetime_picker">Cancel</string>
+
+    <!-- Image description -->
+    <string name="img_datetime">Image datetime</string>
+
+    <string name="hour_picker_description">Hours circular slider</string>
+    <string name="select_hours">Select hours</string>
+    <string name="minute_picker_description">Minutes circular slider</string>
+    <string name="select_minutes">Select minutes</string>
+    <string name="time_placeholder" translatable="false">--</string>
+    <string name="time_separator" translatable="false">:</string>
+
+    <string name="sans_serif" translatable="false">sans-serif</string>
+    <string name="radial_numbers_typeface" translatable="false">sans-serif</string>
+    <string name="deleted_key"><xliff:g example="4" id="key">%1$s</xliff:g> deleted</string>
+    <string name="title_activity_main_screen">Main_screen</string>
+    <string name="title_activity_main_display">MainDisplay</string>
+</resources>

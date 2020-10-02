@@ -1,0 +1,61 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">12dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- header -->
+    <dimen name="header_width">160dp</dimen>
+
+    <dimen name="title_date_time_label_text">14sp</dimen>
+
+    <dimen name="time_label_text">24sp</dimen>
+
+    <dimen name="date_label_year">16sp</dimen>
+    <dimen name="date_label_month_and_day">22sp</dimen>
+
+    <!-- Content -->
+    <dimen name="time_circle_width">240dp</dimen>
+    <!-- Portrait -->
+    <dimen name="calendar_width_portrait">230dp</dimen>
+    <dimen name="calendar_height_portrait">264dp</dimen>
+    <!-- Landscape -->
+    <dimen name="calendar_width_land">140dp</dimen>
+    <dimen name="calendar_height_land">160dp</dimen>
+
+    <dimen name="year_item_padding">16dp</dimen>
+    <dimen name="margin_thirty">20dp</dimen>
+
+    <dimen name="medium_textSize">11sp</dimen>
+
+    <dimen name="small_textSize">10sp</dimen>
+    <dimen name="xsmall_textSize">8sp</dimen>
+
+    <dimen name="Large_textSize">16sp</dimen>
+
+    <dimen name="xl_textSize">18sp</dimen>
+
+    <dimen name="splash_logoSize">130dp</dimen>
+
+    <dimen name="logo_logoSize">100dp</dimen>
+    <dimen name="logo_logoSize_width">70dp</dimen>
+
+    <dimen name="Qr_size">50dp</dimen>
+
+    <dimen name="Qr_size_image">30dp</dimen>
+    <dimen name="tick">24dp</dimen>
+    <dimen name="margin_one_fifty">140dp</dimen>
+    <dimen name="margin_onetwenty">95dp</dimen>
+    <dimen name="margin_one_seventy">100dp</dimen>
+
+    <dimen name="margin_two_hundred">140dp</dimen>
+    <dimen name="Q_hide_logo_width">100dp</dimen>
+    <dimen name="Q_hide_logo_height">70dp</dimen>
+
+    <dimen name="margin_hundred">65dp</dimen>
+    <dimen name="margin_ffifty">30dp</dimen>
+    <dimen name="margin_sixty">40dp</dimen>
+
+
+</resources>

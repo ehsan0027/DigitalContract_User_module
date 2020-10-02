@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+
+    android:fitsSystemWindows="true"
+    android:background="@drawable/submitted_background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Application_submitted">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_margin="@dimen/activity_vertical_margin"
+       android:gravity="center"
+       android:layout_centerInParent="true"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <ImageView
+           android:src="@drawable/greeeen_ttick"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+       <TextView
+           android:layout_marginTop="@dimen/activity_vertical_margin"
+           android:text="Your Face has been matched "
+           android:textStyle="bold"
+           android:id="@+id/percent"
+           android:textSize="@dimen/medium_textSize"
+           android:textColor="@color/white"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+       <TextView
+           android:layout_marginTop="8dp"
+           android:layout_gravity="center"
+           android:gravity="center"
+           android:text="Your Application has been reviewed and accepted! "
+           android:textStyle="bold"
+           android:textSize="@dimen/medium_textSize"
+           android:textColor="@color/white"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+   </LinearLayout>
+
+
+        <Button
+            android:id="@+id/dashboard"
+            android:text="Dashboard"
+            android:textColor="@color/white"
+            android:textSize="@dimen/medium_textSize"
+            android:background="@color/Green"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
